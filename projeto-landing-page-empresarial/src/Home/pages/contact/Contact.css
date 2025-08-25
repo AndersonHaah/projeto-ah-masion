@@ -153,16 +153,20 @@ input::placeholder {
     .form {
         width: 90%;
     }
+
+    #enviar {
+        width: 80%;
+    }
 }
 
 @media (max-width: 590px) {
     .contact-container-principal {
-        padding-top: 400px;
+        padding-top: 500px;
     }
 }
 
 @media (max-width: 490px) {
     .contact-container-principal {
-        padding-top: 450px;
+        padding-top: 550px;
     }
 }
