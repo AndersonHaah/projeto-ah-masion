@@ -1,0 +1,12 @@
+.menu {
+    justify-self: end;
+    align-self: start;
+    padding: 15px;
+
+    position: fixed;
+    top: 0;
+}
+
+.menu img {
+    width: 30px;
+}

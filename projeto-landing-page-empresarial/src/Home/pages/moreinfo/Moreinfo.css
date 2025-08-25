@@ -1,0 +1,145 @@
+/* Container principal do More info */
+
+.moreinfo-container-principal {
+    width: 100%;
+    display: grid;
+    gap: 100px;
+}
+
+.moreinfo-principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.moreinfo-principal h1 {
+    font-family: var(--font-title);
+    padding: 10px;
+    font-size: 3.5em;
+}
+
+.moreinfo-principal p {
+    font-family: var(--font-text);
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+.apresentacao-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding-top: 15px;
+}
+
+.item-img img {
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+}
+
+.item-img img:hover {
+    transform: scale(1.03);
+}
+
+.moreinfo-principal-img {
+    background-image: url('../../components/imgs/moreinfo-img.jpg');
+    background-size: cover;
+    margin: 12px;
+
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+    background-position: center center;
+}
+
+.moreinfo-principal-img:hover {
+    transform: scale(1.03);
+}
+
+
+.moreinfo-principal-img img:hover {
+    transform: scale(1.03);
+}
+
+/* Container secundario do More info */
+
+.moreinfo-secundaria {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.title-secundary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    margin: 0px 13px;
+}
+
+.title-secundary h1 {
+    max-width: 80%;
+
+    font-family: var(--font-title);
+    font-size: 2.5em;
+
+    justify-self: start;
+    align-self: end;
+    text-align: left;
+}
+
+.title-secundary p {
+    max-width: 80%;
+
+    font-family: var(--font-text);
+    font-size: 1em;
+
+    text-align: right;
+    justify-self: end;
+    align-self: center;
+}
+
+.moreinfo-img-secondary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    padding: 25px;
+}
+
+.moreinfosimg {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+    border-radius: 10px;
+    cursor: pointer;
+    background-position: center center;
+
+    transition: transform 0.5s ease;
+}
+
+.moreinfosimg:hover {
+    transform: scale(1.03);
+}
+
+.img1 {
+    background-image: url('../../components/imgs/moreinfosimg.jpg');
+}
+
+.img2 {
+    background-image: url('../../components/imgs/moreinfos-img1.jpg');
+}
+
+.img3 {
+    background-image: url('../../components/imgs/moreinfos-img2.jpg');
+}
+
+
+@media (max-width: 490px) {
+    .title-secundary h1 {
+        align-self: start;
+    }
+}

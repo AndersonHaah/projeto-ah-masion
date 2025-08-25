@@ -1,0 +1,29 @@
+:root {
+    /* Cores Principais e de Destaque */
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #000000;
+    --cor-destaque: #87CEEB;
+
+    /* Cores Complementares */
+    --complementar-1: #C0C0C0;
+    /* Cinza claro */
+    --complementar-2: #F4A460;
+    /* Laranja suave */
+
+    --font-title: "Poiret One", sans-serif;
+    --font-text: "Red Hat Display", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+html {
+    scroll-behavior: smooth;
+}
